@@ -1,8 +1,8 @@
 const { useState, useEffect, useRef } = React;
 
 const supabase = window.supabase.createClient(
-    'https://xbanoipgoleuahwbqksy.supabase.co',
-    'sb_publishable_RSQ4odG0wxy8ZucJHu_WvQ_0JfM8jbh'
+    'https://yskpmaimjeqwatndzovk.supabase.co',
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inlza3BtYWltamVxd2F0bmR6b3ZrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODM3MTQ4NzUsImV4cCI6MjA5OTI5MDg3NX0.3ebQ5QTIoisea9c1NdMxIHyo-YoBmByLaohBpo6bsKA'
 );
 
 // ==== ÍCONES NATIVOS ====
@@ -2150,3 +2150,4 @@ function App() {
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
+
